@@ -1,0 +1,23 @@
+{
+  "name": "CivicDashExtension",
+  "description": "Extension that redirects new tabs to the CivicDash website",
+  "version": "1.0",
+  "action": {},
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "chrome:/"
+  ],
+  "icons": {
+    "128": "128.png",
+    "48": "48.png",
+    "16": "16.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "redirect.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
