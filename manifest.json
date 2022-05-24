@@ -1,7 +1,7 @@
 {
   "name": "CivicDash",
   "description": "Extension that redirects new tabs to the CivicDash website",
-  "version": "1.0",
+  "version": "1.0.1",
   "action": {},
   "manifest_version": 3,
   "icons": {
