@@ -4,8 +4,8 @@ function logTest(){
 
 chrome.action.onClicked.addListener(tab => {
   var url="https://civicdash.org/dashboard"
-  // chrome.tabs.create({ url: url })
-  chrome.tabs.update({url: url})
+  chrome.tabs.create({ url: url })
+  // chrome.tabs.update({url: url})
  });
 
 
